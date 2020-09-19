@@ -7,6 +7,6 @@ Second project for Cloud Developer course, the intent of the project was to depl
 http://cdnd-p2-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
 ## GitHub Brances
-Master: https://github.com/marq-oh/cdnd-p2
-Dev: https://github.com/marq-oh/cdnd-p2/tree/dev
-PR: https://github.com/marq-oh/cdnd-p2/pulls?q=is%3Apr+is%3Aclosed
+Master: https://github.com/marq-oh/cdnd-p2 
+Dev: https://github.com/marq-oh/cdnd-p2/tree/dev 
+PR: https://github.com/marq-oh/cdnd-p2/pulls?q=is%3Apr+is%3Aclosed 
