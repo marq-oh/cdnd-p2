@@ -47,7 +47,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
       let filtered_img = await filterImageFromURL(image_url);
 
       // Send the resulting file in the response
-      res.sendFile(filtered_img, function (err) {
+      res.status(200).sendFile(filtered_img, function (err) {
         if (err) {
           res.status(400).send({
             message: "Invalid image_url"
@@ -64,7 +64,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   // Root Endpoint
   // Displays a simple message to the user
   app.get( "/", async ( req, res ) => {
-    res.send("try GET /filteredimage?image_url={{}}")
+    res.status(200).send("try GET /filteredimage?image_url={{}}")
   } );
   
 
